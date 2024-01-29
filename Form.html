@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sign Up form</title>
+    </head>
+    <body style="background-color: aquamarine;">
+        <h1 style="text-align:center;"><marquee>Sign Up Form</marquee></h1><hr>
+        <p style="text-align:center;"><label for="user">First Name:</label>
+            <input type="text" id="user" name="user" placeholder="first name">
+            <label for="user">Last Name:</label>
+            <input type="text" id="user" name="user" placeholder="last name">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="usermail" required>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="password" required>
+            <br><br>
+            <label for="Phone">Phone:</label>
+            <select name="code">
+                <option value="+880">+880</option>
+                <option value="+990">+990</option>
+                <option value="+770">+770</option>
+            </select>
+            <input type="Number" id="phone" name="phone" placeholder="1234" required>
+            <br><br>
+            Gender:
+            <input type="radio" id="gender1" name="gender">
+            <label for="gender1">Male</label>
+            <input type="radio" id="gender2" name="gender">
+            <label for="gender2">Female</label>
+            <br><br>
+            <label for="country">Country</label>
+            <input list="country">
+            <datalist id="country">
+                <option value="Bangladesh"></option>
+                <option value="Srilanka"></option>
+                <option value="New Zealand"></option>
+                <option value="Australia"></option>
+            </datalist>
+            <br><br>
+            <label for="data">Date of Birth</label>
+            <input type="date" id="date" name="date of birth">
+            <br><br>
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time">
+            <br><br>
+            <label for="color">Color</label>
+            <input type="color" id="color" name="color">
+            <br><br>
+            <label for="file">Choose photo </label>
+            <input type="file" id="file" name="file">
+            <br><br>
+            <input type="submit" value="Sign Up">
+            <input type="submit" value="Cancel">
+        </p>
+            
+        
+    </body>
+</html>
